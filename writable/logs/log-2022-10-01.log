@@ -1,0 +1,86 @@
+CRITICAL - 2022-10-01 23:34:48 --> The framework needs the following extension(s) installed and loaded: intl, xml.
+in SYSTEMPATH/CodeIgniter.php on line 219.
+ 1 SYSTEMPATH/CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+ 2 SYSTEMPATH/CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 ROOTPATH/spark(83): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-10-01 19:50:57 --> Call to a member function view() on null
+in APPPATH/Controllers/Home.php on line 7.
+ 1 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Home->index()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-01 19:51:34 --> Undefined property: App\Controllers\Home::$slice
+in APPPATH/Controllers/Home.php on line 7.
+ 1 APPPATH/Controllers/Home.php(7): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-01 19:52:56 --> Undefined index: memberData
+in APPPATH/Libraries/Slice.php on line 169.
+ 1 APPPATH/Libraries/Slice.php(169): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/Controller.php(79): App\Libraries\Slice->__construct()
+ 3 APPPATH/Controllers/BaseController.php(46): CodeIgniter\Controller->initController()
+ 4 SYSTEMPATH/CodeIgniter.php(870): App\Controllers\BaseController->initController()
+ 5 SYSTEMPATH/CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-01 19:59:10 --> Undefined index: memberData
+in APPPATH/Libraries/Slice.php on line 169.
+ 1 APPPATH/Libraries/Slice.php(169): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/Controller.php(79): App\Libraries\Slice->__construct()
+ 3 APPPATH/Controllers/BaseController.php(46): CodeIgniter\Controller->initController()
+ 4 SYSTEMPATH/CodeIgniter.php(870): App\Controllers\BaseController->initController()
+ 5 SYSTEMPATH/CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-01 19:59:26 --> Undefined index: memberData
+in APPPATH/Libraries/Slice.php on line 169.
+ 1 APPPATH/Libraries/Slice.php(169): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/Controller.php(79): App\Libraries\Slice->__construct()
+ 3 APPPATH/Controllers/BaseController.php(46): CodeIgniter\Controller->initController()
+ 4 SYSTEMPATH/CodeIgniter.php(870): App\Controllers\BaseController->initController()
+ 5 SYSTEMPATH/CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-01 20:00:37 --> Undefined index: memberData
+in APPPATH/Libraries/Slice.php on line 169.
+ 1 APPPATH/Libraries/Slice.php(169): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/Controller.php(79): App\Libraries\Slice->__construct()
+ 3 APPPATH/Controllers/BaseController.php(46): CodeIgniter\Controller->initController()
+ 4 SYSTEMPATH/CodeIgniter.php(870): App\Controllers\BaseController->initController()
+ 5 SYSTEMPATH/CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-01 20:25:44 --> Use of undefined constant title - assumed 'title' (this will throw an Error in a future version of PHP)
+in APPPATH/Libraries/Slice.php(498) : eval()'d code on line 6.
+ 1 APPPATH/Libraries/Slice.php(498) : eval()'d code(6): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Libraries/Slice.php(498): eval()
+ 3 APPPATH/Libraries/Slice.php(355): App\Libraries\Slice->_run()
+ 4 APPPATH/Controllers/Home.php(7): App\Libraries\Slice->view()
+ 5 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Home->index()
+ 6 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-01 20:27:14 --> Undefined property: App\Controllers\Home::$slice
+in APPPATH/Controllers/Home.php on line 7.
+ 1 APPPATH/Controllers/Home.php(7): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-01 20:28:39 --> Call to undefined method App\Controllers\Home::view()
+in APPPATH/Controllers/Home.php on line 7.
+ 1 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Home->index()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-01 22:39:02 --> Invalid file: page/privacy/index.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Privacy.php(8): view()
+ 4 SYSTEMPATH/CodeIgniter.php(907): App\Controllers\Privacy->index()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
